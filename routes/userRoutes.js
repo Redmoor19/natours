@@ -10,14 +10,12 @@ const {
   deleteUser,
 } = require('../controllers/userController');
 
-router
-  .route('/')
-  .get(getAllUsers)
-  .post(createUser);
-router
-  .route('/:id')
-  .get(getUser)
-  .patch(updateUser)
-  .delete(deleteUser);
+const { signUp, logIn } = require('../controllers/authController');
+
+router.post('/signup', signUp);
+router.post('/login', logIn);
+
+router.route('/').get(getAllUsers).post(createUser);
+router.route('/:id').get(getUser).patch(updateUser).delete(deleteUser);
 
 module.exports = router;
