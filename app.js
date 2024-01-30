@@ -2,7 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 
 const AppError = require('./utils/appError');
-const globlaErrorHandler = require('./controllers/errorController');
+const globalErrorHandler = require('./controllers/errorController');
 
 const tourRouter = require(`${__dirname}/routes/tourRoutes`);
 const userRouter = require(`${__dirname}/routes/userRoutes`);
@@ -21,6 +21,6 @@ app.all('*', (req, res, next) => {
   next(err);
 });
 
-app.use(globlaErrorHandler);
+app.use(globalErrorHandler);
 
 module.exports = app;
