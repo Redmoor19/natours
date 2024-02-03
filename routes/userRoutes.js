@@ -4,17 +4,20 @@ const router = express.Router();
 
 const userController = require('../controllers/userController');
 
-const {
-  signUp,
-  logIn,
-  resetPassword,
-  forgotPassword,
-} = require('../controllers/authController');
+const authController = require('../controllers/authController');
 
-router.post('/signup', signUp);
-router.post('/login', logIn);
-router.patch('/resetPassword/:token', resetPassword);
-router.post('/forgotPassword', forgotPassword);
+router.post('/signup', authController.signUp);
+router.post('/login', authController.logIn);
+router.patch('/resetPassword/:token', authController.resetPassword);
+router.post('/forgotPassword', authController.forgotPassword);
+
+router.patch(
+  '/updateMyPassword',
+  authController.protect,
+  authController.updatePassword,
+);
+
+router.patch('/updateMe', authController.protect, userController.updateMe);
 
 router
   .route('/')
