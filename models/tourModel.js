@@ -33,6 +33,7 @@ const tourScheema = new mongoose.Schema(
       default: 4.5,
       min: [1, "Tour raiting can't be less then 1"],
       max: [5, "Tour raiting can't be more then 5"],
+      set: (val) => Math.round(val * 10) / 10,
     },
     ratingsQuantity: {
       type: Number,
@@ -75,6 +76,30 @@ const tourScheema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
+    startLocation: {
+      type: {
+        type: String,
+        default: 'Point',
+        enum: ['Point'],
+      },
+      coordinates: [Number],
+      address: String,
+      description: String,
+    },
+    locations: [
+      {
+        type: {
+          type: String,
+          default: 'Point',
+          enum: ['Point'],
+        },
+        coordinates: [Number],
+        address: String,
+        description: String,
+        day: Number,
+      },
+    ],
+    guides: [{ type: mongoose.Schema.ObjectId, ref: 'User' }],
   },
   {
     toJSON: { virtuals: true },
@@ -82,8 +107,28 @@ const tourScheema = new mongoose.Schema(
   },
 );
 
+tourScheema.index({
+  price: 1,
+  ratingsAverage: -1,
+});
+
+tourScheema.index({
+  slug: 1,
+});
+
+tourScheema.index({
+  startLocation: '2dsphere',
+});
+
 tourScheema.virtual('durationWeeks').get(function () {
   return this.duration / 7;
+});
+
+// Virtual populate
+tourScheema.virtual('reviews', {
+  ref: 'Review',
+  foreignField: 'tour',
+  localField: '_id',
 });
 
 // DOCUMENT MIDDLWARE: runs before the save() and create();
@@ -98,16 +143,24 @@ tourScheema.pre(/^find/, function (next) {
   next();
 });
 
-// AGGREGATION MIDDLEWARE
-
-tourScheema.pre('aggregate', function (next) {
-  this.pipeline().unshift({
-    $match: {
-      secretTour: { $ne: true },
-    },
+tourScheema.pre(/^find/, function (next) {
+  this.populate({
+    path: 'guides',
+    select: '-__v -passwordChangedAt',
   });
   next();
 });
+
+// AGGREGATION MIDDLEWARE
+
+// tourScheema.pre('aggregate', function (next) {
+//   this.pipeline().unshift({
+//     $match: {
+//       secretTour: { $ne: true },
+//     },
+//   });
+//   next();
+// });
 
 const Tour = mongoose.model('Tour', tourScheema);
 module.exports = Tour;

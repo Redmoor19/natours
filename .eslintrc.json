@@ -18,5 +18,8 @@
     "import/no-dynamic-require": "off",
     "prefer-object-spread": "off",
     "import/no-extraneous-dependencies": "off"
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }
