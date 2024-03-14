@@ -1,5 +1,6 @@
 const Tour = require('../models/tourModel');
 const catchAsync = require('../utils/catchAsync');
+const AppError = require('../utils/appError');
 
 exports.getOverview = catchAsync(async (req, res, next) => {
   const tours = await Tour.find();
@@ -15,6 +16,10 @@ exports.getTour = catchAsync(async (req, res, next) => {
     path: 'reviews',
     fields: 'review rating user',
   });
+
+  if (!tour) {
+    return next(new AppError('No tour was found', 404));
+  }
 
   res
     .status(200)
@@ -34,5 +39,14 @@ exports.getLoginForm = (req, res) => {
     .set('Content-Security-Policy', "connect-src 'self' http://127.0.0.1:3000/")
     .render('login', {
       title: 'Log into your account',
+    });
+};
+
+exports.getAccount = (req, res) => {
+  res
+    .status(200)
+    .set('Content-Security-Policy', "connect-src 'self' http://127.0.0.1:3000/")
+    .render('account', {
+      title: 'Your account',
     });
 };

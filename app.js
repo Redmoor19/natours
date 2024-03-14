@@ -39,6 +39,7 @@ const limiter = rateLimit({
 app.use('/api', limiter);
 // Translare json and limit the body size
 app.use(express.json({ limit: '10kb' }));
+app.use(express.urlencoded({ extended: true, limit: '10kb' }));
 app.use(cookieParser());
 // Data sanitization against noSQL query injection
 app.use(mongoSanitize());

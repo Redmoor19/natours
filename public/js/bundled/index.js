@@ -588,10 +588,13 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 var _runtime = require("regenerator-runtime/runtime");
 var _login = require("./login");
 var _mapbox = require("./mapbox");
+var _updateSettings = require("./updateSettings");
 //DOM ELEMENTS
 const mapBox = document.getElementById("map");
-const loginForm = document.querySelector(".form");
+const loginForm = document.querySelector("#loginForm");
 const logoutBtn = document.querySelector(".nav__el--logout");
+const updateUserDataForm = document.querySelector(".form-user-data");
+const updateUserPasswordForm = document.querySelector(".form-user-password");
 //VALUES
 //DELEGATION
 if (mapBox) {
@@ -605,8 +608,28 @@ if (loginForm) loginForm.addEventListener("submit", (e)=>{
     (0, _login.login)(email, password);
 });
 if (logoutBtn) logoutBtn.addEventListener("click", (0, _login.logout));
+if (updateUserDataForm) updateUserDataForm.addEventListener("submit", (e)=>{
+    e.preventDefault();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    (0, _updateSettings.updateSettings)({
+        name,
+        email
+    }, "data");
+});
+if (updateUserPasswordForm) updateUserPasswordForm.addEventListener("submit", (e)=>{
+    e.preventDefault();
+    const password = document.getElementById("password-current").value;
+    const newPassword = document.getElementById("password").value;
+    const newPasswordConfirm = document.getElementById("password-confirm").value;
+    (0, _updateSettings.updateSettings)({
+        password,
+        newPassword,
+        newPasswordConfirm
+    }, "password");
+});
 
-},{"core-js/modules/web.immediate.js":"49tUX","regenerator-runtime/runtime":"dXNgZ","./login":"7yHem","./mapbox":"3zDlz"}],"49tUX":[function(require,module,exports) {
+},{"core-js/modules/web.immediate.js":"49tUX","regenerator-runtime/runtime":"dXNgZ","./login":"7yHem","./mapbox":"3zDlz","./updateSettings":"l3cGY"}],"49tUX":[function(require,module,exports) {
 "use strict";
 // TODO: Remove this module from `core-js@4` since it's split to modules listed below
 require("52e9b3eefbbce1ed");
@@ -6919,6 +6942,33 @@ const displayMap = (locations)=>{
     });
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["kx4kz","f2QDv"], "f2QDv", "parcelRequire11c7")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"l3cGY":[function(require,module,exports) {
+/* eslint-disable */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "updateSettings", ()=>updateSettings);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+var _alerts = require("./alerts");
+const updateSettings = async (data, type)=>{
+    const url = type === "password" ? "updateMyPassword" : "updateMe";
+    try {
+        const res = await (0, _axiosDefault.default)({
+            method: "PATCH",
+            url: `http://127.0.0.1:3000/api/v1/users/${url}`,
+            data
+        });
+        if (res.data.status === "success") {
+            (0, _alerts.showAlert)("success", `Your ${type} was updated!`);
+            window.setTimeout(()=>{
+                location.assign("/me");
+            }, 5000);
+        }
+    } catch (err) {
+        console.log(err);
+        (0, _alerts.showAlert)("error", err.response.data.message);
+    }
+};
+
+},{"./alerts":"6Mcnf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","axios":"jo6P5"}]},["kx4kz","f2QDv"], "f2QDv", "parcelRequire11c7")
 
 //# sourceMappingURL=index.js.map

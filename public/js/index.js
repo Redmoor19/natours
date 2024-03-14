@@ -4,12 +4,15 @@ import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import { login, logout } from './login';
 import { displayMap } from './mapbox';
+import { updateSettings } from './updateSettings';
 
 //DOM ELEMENTS
 
 const mapBox = document.getElementById('map');
-const loginForm = document.querySelector('.form');
+const loginForm = document.querySelector('#loginForm');
 const logoutBtn = document.querySelector('.nav__el--logout');
+const updateUserDataForm = document.querySelector('.form-user-data');
+const updateUserPasswordForm = document.querySelector('.form-user-password');
 
 //VALUES
 
@@ -31,4 +34,24 @@ if (loginForm) {
 
 if (logoutBtn) {
   logoutBtn.addEventListener('click', logout);
+}
+
+if (updateUserDataForm) {
+  updateUserDataForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    updateSettings({ name, email }, 'data');
+  });
+}
+
+if (updateUserPasswordForm) {
+  updateUserPasswordForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const password = document.getElementById('password-current').value;
+    const newPassword = document.getElementById('password').value;
+    const newPasswordConfirm =
+      document.getElementById('password-confirm').value;
+    updateSettings({ password, newPassword, newPasswordConfirm }, 'password');
+  });
 }
