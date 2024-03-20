@@ -1,27 +1,57 @@
 const nodemailer = require('nodemailer');
+const pug = require('pug');
+const htmlToText = require('html-to-text');
 
-const sendEmail = async (options) => {
-  // 1) Create a transporter
+module.exports = class Email {
+  constructor(user, url) {
+    this.to = user.email;
+    this.firstName = user.name.split(' ')[0];
+    this.url = url;
+    this.from = `Danila Mandrabura <${process.env.EMAIL_FROM}>`;
+  }
 
-  const transporter = nodemailer.createTransport({
-    host: process.env.EMAIL_HOST,
-    port: process.env.EMAIL_PORT,
-    auth: {
-      user: process.env.EMAIL_USERNAME,
-      pass: process.env.EMAIL_PASSWORD,
-    },
-  });
+  useTransport() {
+    if (process.env.NODE_ENV === 'production') {
+      // Sengrid
+      return 1;
+    }
+    return nodemailer.createTransport({
+      host: process.env.EMAIL_HOST,
+      port: process.env.EMAIL_PORT,
+      auth: {
+        user: process.env.EMAIL_USERNAME,
+        pass: process.env.EMAIL_PASSWORD,
+      },
+    });
+  }
 
-  // 2) Define the email options
-  const mailOptions = {
-    from: 'Danila Mandrabura <kald03@yandex.ru>',
-    to: options.email,
-    subject: options.subject,
-    text: options.message,
-  };
+  async send(template, subject) {
+    //Send the actual email
+    const html = pug.renderFile(`${__dirname}/../views/email/${template}.pug`, {
+      firstName: this.firstName,
+      url: this.url,
+      subject,
+    });
 
-  // 3) Send the email
-  await transporter.sendMail(mailOptions);
+    const mailOptions = {
+      from: this.from,
+      to: this.to,
+      subject,
+      html,
+      text: htmlToText.htmlToText(html),
+    };
+
+    await this.useTransport().sendMail(mailOptions);
+  }
+
+  async sendWelcome() {
+    await this.send('welcome', 'Welcome to the Natours Falimy!');
+  }
+
+  async sendPasswordReset() {
+    await this.send(
+      'passwordReset',
+      'Your password reset token (valid only for 10 minutes)',
+    );
+  }
 };
-
-module.exports = sendEmail;
