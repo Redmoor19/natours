@@ -8,6 +8,7 @@ const xss = require('xss-clean');
 const hpp = require('hpp');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
+const compression = require('compression');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
@@ -29,6 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Inserting secure middlewares
 app.use(helmet());
+app.use(compression());
 
 const limiter = rateLimit({
   max: 100,

@@ -1,4 +1,4 @@
-21403
+21453
 75J:\Danya\Code\Node.js\Natours\node_modules\core-js\full\typed-array\join.js133547952726369702 0
 67J:\Danya\Code\Node.js\Natours\node_modules\text-table\test\table.js133497987879891304 0
 63J:\Danya\Code\Node.js\Natours\node_modules\.bin\detect-libc.ps1133547927792253821 0
@@ -19,7 +19,7 @@
 71J:\Danya\Code\Node.js\Natours\node_modules\which-builtin-type\.eslintrc133497987806754678 0
 74J:\Danya\Code\Node.js\Natours\node_modules\caniuse-lite\data\regions\PG.js133547927784021761 0
 95J:\Danya\Code\Node.js\Natours\node_modules\html-to-text\node_modules\entities\lib\decode.js.map133552513168264836 0
-36J:\Danya\Code\Node.js\Natours\app.js133548911903078666 0
+36J:\Danya\Code\Node.js\Natours\app.js133553940528899573 0
 47J:\Danya\Code\Node.js\Natours\views\_header.pug133548054808932693 0
 65J:\Danya\Code\Node.js\Natours\node_modules\promise\lib\finally.js133546229560394195 0
 80J:\Danya\Code\Node.js\Natours\node_modules\resolve\test\resolver\nested_symlinks133497987879993899 1
@@ -89,7 +89,7 @@
 74J:\Danya\Code\Node.js\Natours\node_modules\@parcel\transformer-postcss\src133547927665043297 1
 59J:\Danya\Code\Node.js\Natours\public\img\tours\tour-4-2.jpg132475715290000000 0
 93J:\Danya\Code\Node.js\Natours\node_modules\css-select\lib\esm\pseudo-selectors\aliases.js.map133547927698382460 0
-42J:\Danya\Code\Node.js\Natours\node_modules133552513173179829 1
+42J:\Danya\Code\Node.js\Natours\node_modules133553939835824794 1
 88J:\Danya\Code\Node.js\Natours\node_modules\mongodb\lib\cursor\list_indexes_cursor.js.map133498719871614336 0
 41J:\Danya\Code\Node.js\Natours\.prettierrc133498683847792793 0
 71J:\Danya\Code\Node.js\Natours\node_modules\mongodb\lib\encrypter.js.map133498719871263236 0
@@ -131,17 +131,17 @@
 92J:\Danya\Code\Node.js\Natours\node_modules\sharp\node_modules\detect-libc\lib\detect-libc.js133548995641731092 0
 71J:\Danya\Code\Node.js\Natours\node_modules\domutils\lib\legacy.d.ts.map133547927681648974 0
 77J:\Danya\Code\Node.js\Natours\node_modules\core-js\modules\esnext.map.from.js133547952714822288 0
-47J:\Danya\Code\Node.js\Natours\package-lock.json133552513176099789 0
+47J:\Danya\Code\Node.js\Natours\package-lock.json133553939839244783 0
 55J:\Danya\Code\Node.js\Natours\public\img\logo-white.png132475715290000000 0
 46J:\Danya\Code\Node.js\Natours\public\tour.html132475715290000000 0
 49J:\Danya\Code\Node.js\Natours\node_modules\cookie133493659291832686 1
 65J:\Danya\Code\Node.js\Natours\node_modules\graphemer\CHANGELOG.md133497987885206585 0
 51J:\Danya\Code\Node.js\Natours\node_modules\statuses133493659291727867 1
 72J:\Danya\Code\Node.js\Natours\node_modules\@parcel\workers\lib\Worker.js133547927700942480 0
-47J:\Danya\Code\Node.js\Natours\public\js\bundled133549006320376112 1
+47J:\Danya\Code\Node.js\Natours\public\js\bundled133553942335357650 1
 66J:\Danya\Code\Node.js\Natours\node_modules\es-define-property\test133547926584622514 1
 75J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2022\ToUint8Clamp.js133497987969082196 0
-42J:\Danya\Code\Node.js\Natours\package.json133552513173299813 0
+42J:\Danya\Code\Node.js\Natours\package.json133553939835914783 0
 50J:\Danya\Code\Node.js\Natours\node_modules\find-up133497987828480178 1
 36J:\Danya\Code\Node.js\Natours\public133547172051976187 1
 79J:\Danya\Code\Node.js\Natours\node_modules\core-js\stable\math\to-string-tag.js133547952735684647 0
@@ -219,7 +219,7 @@
 88J:\Danya\Code\Node.js\Natours\node_modules\core-js\modules\esnext.weak-set.delete-all.js133547952716347385 0
 73J:\Danya\Code\Node.js\Natours\node_modules\is-weakref\.github\FUNDING.yml133497987867141819 0
 45J:\Danya\Code\Node.js\Natours\node_modules\qs133493659293040900 1
-41J:\Danya\Code\Node.js\Natours\views\email133553390523418845 1
+41J:\Danya\Code\Node.js\Natours\views\email133553922240120976 1
 64J:\Danya\Code\Node.js\Natours\node_modules\which-boxed-primitive133497987869182173 1
 81J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2015\EnumerableOwnNames.js133497987941973001 0
 58J:\Danya\Code\Node.js\Natours\node_modules\ms\package.json133493659210013584 0
@@ -328,7 +328,7 @@
 74J:\Danya\Code\Node.js\Natours\node_modules\core-js\stable\array\entries.js133547952707916778 0
 102J:\Danya\Code\Node.js\Natours\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_stat.1133547927698292457 0
 72J:\Danya\Code\Node.js\Natours\node_modules\core-js\full\weak-set\from.js133547952719497314 0
-53J:\Danya\Code\Node.js\Natours\views\email\welcome.pug133553426671833800 0
+53J:\Danya\Code\Node.js\Natours\views\email\welcome.pug133553431868490383 0
 76J:\Danya\Code\Node.js\Natours\node_modules\@parcel\utils\src\prettifyTime.js133547927702692485 0
 80J:\Danya\Code\Node.js\Natours\node_modules\electron-to-chromium\full-versions.js133547927629263150 0
 74J:\Danya\Code\Node.js\Natours\node_modules\caniuse-lite\data\regions\JP.js133547927781084476 0
@@ -368,7 +368,7 @@
 73J:\Danya\Code\Node.js\Natours\node_modules\which-typed-array\package.json133497987852134940 0
 73J:\Danya\Code\Node.js\Natours\node_modules\core-js\features\math\asinh.js133547952703206768 0
 52J:\Danya\Code\Node.js\Natours\node_modules\es-errors133547926636231916 1
-44J:\Danya\Code\Node.js\Natours\utils\email.js133553424679899920 0
+44J:\Danya\Code\Node.js\Natours\utils\email.js133553925255548753 0
 58J:\Danya\Code\Node.js\Natours\node_modules\brace-expansion133493659217426233 1
 49J:\Danya\Code\Node.js\Natours\node_modules\qs\lib133493659292839081 1
 66J:\Danya\Code\Node.js\Natours\node_modules\lmdb\dist\index.cjs.map133547927710553282 0
@@ -439,7 +439,7 @@
 46J:\Danya\Code\Node.js\Natours\node_modules\pug133546229558991176 1
 66J:\Danya\Code\Node.js\Natours\node_modules\is-finalizationregistry133497987861466773 1
 65J:\Danya\Code\Node.js\Natours\node_modules\validator\lib\rtrim.js133504043216685166 0
-48J:\Danya\Code\Node.js\Natours\public\js\login.js133547988313410536 0
+48J:\Danya\Code\Node.js\Natours\public\js\login.js133553942333467797 0
 81J:\Danya\Code\Node.js\Natours\node_modules\core-js\internals\well-known-symbol.js133547952739094641 0
 61J:\Danya\Code\Node.js\Natours\node_modules\proxy-addr\LICENSE133493659290685442 0
 61J:\Danya\Code\Node.js\Natours\node_modules\typedarray\example133548967976276668 1
@@ -450,7 +450,7 @@
 69J:\Danya\Code\Node.js\Natours\node_modules\mongoose\lib\collection.js133498719827067465 0
 51J:\Danya\Code\Node.js\Natours\node_modules\punycode133497987851174261 1
 71J:\Danya\Code\Node.js\Natours\node_modules\validator\es\lib\contains.js133504043208567952 0
-57J:\Danya\Code\Node.js\Natours\public\js\updateSettings.js133548957059487681 0
+57J:\Danya\Code\Node.js\Natours\public\js\updateSettings.js133553942302011560 0
 72J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2015\ToInteger.js133497987968299804 0
 86J:\Danya\Code\Node.js\Natours\node_modules\@babel\types\lib\converters\toExpression.js133546229562576049 0
 71J:\Danya\Code\Node.js\Natours\node_modules\mongoose\lib\drivers\SPEC.md133498719871903575 0
@@ -461,12 +461,10 @@
 72J:\Danya\Code\Node.js\Natours\node_modules\regexp.prototype.flags\.nycrc133497987818933253 0
 78J:\Danya\Code\Node.js\Natours\node_modules\mdn-data\css\properties.schema.json133547927696182461 0
 73J:\Danya\Code\Node.js\Natours\node_modules\chokidar\lib\nodefs-handler.js133493659219218568 0
-56J:\Danya\Code\Node.js\Natours\public\js\bundled\index.js133549006320316003 0
 54J:\Danya\Code\Node.js\Natours\node_modules\ajv\lib\dot133497987934384764 1
 89J:\Danya\Code\Node.js\Natours\node_modules\eslint-plugin-jsx-a11y\__tests__\index-test.js133497987926560009 0
 62J:\Danya\Code\Node.js\Natours\node_modules\resolve\lib\sync.js133497987928205115 0
 68J:\Danya\Code\Node.js\Natours\node_modules\eslint-config-airbnb-base133497987883150723 1
-60J:\Danya\Code\Node.js\Natours\public\js\bundled\index.js.map133549006320376112 0
 52J:\Danya\Code\Node.js\Natours\public\img\favicon.png132475715290000000 0
 99J:\Danya\Code\Node.js\Natours\node_modules\html-to-text\node_modules\htmlparser2\lib\index.d.ts.map133552513167834816 0
 51J:\Danya\Code\Node.js\Natours\node_modules\css-tree133547927730505929 1
@@ -1103,7 +1101,7 @@
 91J:\Danya\Code\Node.js\Natours\node_modules\eslint-plugin-import\node_modules\semver\LICENSE133497987807444305 0
 95J:\Danya\Code\Node.js\Natours\node_modules\es-iterator-helpers\IteratorHelperPrototype\index.js133497987919167362 0
 99J:\Danya\Code\Node.js\Natours\node_modules\dom-serializer\node_modules\entities\lib\decode.d.ts.map133547927677246232 0
-61J:\Danya\Code\Node.js\Natours\node_modules\.package-lock.json133552513178709794 0
+61J:\Danya\Code\Node.js\Natours\node_modules\.package-lock.json133553939841842516 0
 62J:\Danya\Code\Node.js\Natours\node_modules\srcset\package.json133547927602654542 0
 49J:\Danya\Code\Node.js\Natours\node_modules\dotenv133498704795778342 1
 61J:\Danya\Code\Node.js\Natours\node_modules\promise\index.d.ts133546229559101195 0
@@ -1142,7 +1140,7 @@
 71J:\Danya\Code\Node.js\Natours\node_modules\validator\es\lib\isBase58.js133504043209335267 0
 81J:\Danya\Code\Node.js\Natours\node_modules\core-js\actual\instance\copy-within.js133547952706166752 0
 79J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2022\CloneArrayBuffer.js133497987938780311 0
-50J:\Danya\Code\Node.js\Natours\node_modules\@emnapi133552513173239821 1
+50J:\Danya\Code\Node.js\Natours\node_modules\@emnapi133553939833654777 1
 81J:\Danya\Code\Node.js\Natours\node_modules\eslint\lib\rules\no-inline-comments.js133497987940427522 0
 88J:\Danya\Code\Node.js\Natours\node_modules\mongodb\lib\operations\count_documents.js.map133498719870910578 0
 93J:\Danya\Code\Node.js\Natours\node_modules\eslint-plugin-import\node_modules\semver\semver.js133497987835796154 0
@@ -1188,7 +1186,7 @@
 60J:\Danya\Code\Node.js\Natours\node_modules\lodash\fp\size.js133515228704788334 0
 73J:\Danya\Code\Node.js\Natours\node_modules\mquery\lib\collection\index.js133498719758297867 0
 63J:\Danya\Code\Node.js\Natours\node_modules\pug-filters\index.js133546229557985696 0
-47J:\Danya\Code\Node.js\Natours\node_modules\@img133552513173209806 1
+47J:\Danya\Code\Node.js\Natours\node_modules\@img133553939835844770 1
 61J:\Danya\Code\Node.js\Natours\node_modules\css-what\readme.md133547927695552469 0
 75J:\Danya\Code\Node.js\Natours\node_modules\core-js\full\object\to-string.js133547952735824654 0
 83J:\Danya\Code\Node.js\Natours\node_modules\axobject-query\lib\AXObjectElementMap.js133497987864646725 0
@@ -1265,7 +1263,7 @@
 84J:\Danya\Code\Node.js\Natours\node_modules\caniuse-lite\data\features\ol-reversed.js133547927783791695 0
 76J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2021\IsConstructor.js133497987949725291 0
 73J:\Danya\Code\Node.js\Natours\node_modules\core-js\actual\object\index.js133547952721647272 0
-50J:\Danya\Code\Node.js\Natours\node_modules\@parcel133552513173189810 1
+50J:\Danya\Code\Node.js\Natours\node_modules\@parcel133553939835834776 1
 85J:\Danya\Code\Node.js\Natours\node_modules\core-js\stable\reflect\set-prototype-of.js133547952732170372 0
 49J:\Danya\Code\Node.js\Natours\node_modules\multer133548967978274332 1
 67J:\Danya\Code\Node.js\Natours\node_modules\lodash\fp\indexOfFrom.js133515228700267894 0
@@ -3313,6 +3311,7 @@
 83J:\Danya\Code\Node.js\Natours\node_modules\is-expression\node_modules\acorn\LICENSE133546229557679199 0
 70J:\Danya\Code\Node.js\Natours\node_modules\tsconfig-paths\src\index.ts133497987917681455 0
 60J:\Danya\Code\Node.js\Natours\node_modules\lmdb\package.json133547927710283302 0
+73J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\bytes133553939835384771 1
 76J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2021\IteratorClose.js133497987960255063 0
 69J:\Danya\Code\Node.js\Natours\node_modules\sparse-bitfield\.npmignore133498719757689262 0
 85J:\Danya\Code\Node.js\Natours\node_modules\with\.github\workflows\rollingversions.yml133546229560364182 0
@@ -3742,6 +3741,7 @@
 62J:\Danya\Code\Node.js\Natours\node_modules\ajv\lib\dot\ref.jst133497987929266405 0
 70J:\Danya\Code\Node.js\Natours\node_modules\resolve\test\filter_sync.js133497987892549166 0
 66J:\Danya\Code\Node.js\Natours\node_modules\validator\lib\isSlug.js133504043212934432 0
+94J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\src\inspector-log.js133553939835574770 0
 78J:\Danya\Code\Node.js\Natours\node_modules\string.prototype.trim\.editorconfig133497987807277411 0
 75J:\Danya\Code\Node.js\Natours\node_modules\validator\lib\isSurrogatePair.js133504043213004417 0
 66J:\Danya\Code\Node.js\Natours\node_modules\mongodb\src\sessions.ts133498719880678405 0
@@ -3954,6 +3954,7 @@
 92J:\Danya\Code\Node.js\Natours\node_modules\@parcel\source-map\parcel_sourcemap_node\index.js133547927665519199 0
 74J:\Danya\Code\Node.js\Natours\node_modules\validator\es\lib\isUppercase.js133504043213124398 0
 66J:\Danya\Code\Node.js\Natours\node_modules\semver\functions\cmp.js133493659218111496 0
+62J:\Danya\Code\Node.js\Natours\node_modules\compression\LICENSE133553939835394784 0
 67J:\Danya\Code\Node.js\Natours\node_modules\lodash\_arrayIncludes.js133515228689693764 0
 69J:\Danya\Code\Node.js\Natours\node_modules\validator\es\lib\isUUID.js133504043213400655 0
 84J:\Danya\Code\Node.js\Natours\node_modules\tsconfig-paths\lib\tsconfig-loader.js.map133497987917556487 0
@@ -4205,6 +4206,7 @@
 82J:\Danya\Code\Node.js\Natours\node_modules\string_decoder\node_modules\safe-buffer133548967976256687 1
 76J:\Danya\Code\Node.js\Natours\node_modules\mongodb\lib\operations\indexes.js133498719829358976 0
 66J:\Danya\Code\Node.js\Natours\node_modules\semver\functions\inc.js133493659221777319 0
+59J:\Danya\Code\Node.js\Natours\views\email\passwordReset.pug133553923778028511 0
 81J:\Danya\Code\Node.js\Natours\node_modules\uri-js\dist\esnext\schemes\http.js.map133497987883867007 0
 94J:\Danya\Code\Node.js\Natours\node_modules\es-iterator-helpers\Iterator.prototype.map\index.js133497987918704589 0
 80J:\Danya\Code\Node.js\Natours\node_modules\uri-js\dist\esnext\schemes\https.d.ts133497987918036733 0
@@ -5613,6 +5615,7 @@
 61J:\Danya\Code\Node.js\Natours\node_modules\sift\es5m\index.js133498719758297867 0
 68J:\Danya\Code\Node.js\Natours\node_modules\side-channel\CHANGELOG.md133547926624466679 0
 65J:\Danya\Code\Node.js\Natours\node_modules\lodash\fp\mapValues.js133515228702378081 0
+67J:\Danya\Code\Node.js\Natours\node_modules\compression\package.json133553939834754784 0
 75J:\Danya\Code\Node.js\Natours\node_modules\core-js\features\array\reduce.js133547952730800350 0
 121J:\Danya\Code\Node.js\Natours\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\7-mergeRuleset.js133547927655695133 0
 66J:\Danya\Code\Node.js\Natours\node_modules\side-channel\index.d.ts133547926627481934 0
@@ -5984,6 +5987,7 @@
 88J:\Danya\Code\Node.js\Natours\node_modules\css-select\lib\pseudo-selectors\subselects.js133547927697152473 0
 98J:\Danya\Code\Node.js\Natours\node_modules\eslint-plugin-react\node_modules\resolve\test\dotdot.js133497987887797004 0
 64J:\Danya\Code\Node.js\Natours\node_modules\resolve-from\index.js133497987808123145 0
+82J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\bytes\index.js133553939835304779 0
 83J:\Danya\Code\Node.js\Natours\node_modules\csso\node_modules\mdn-data\css\readme.md133547927698962495 0
 63J:\Danya\Code\Node.js\Natours\node_modules\resolve-from\license133497987817633931 0
 55J:\Danya\Code\Node.js\Natours\node_modules\resolve\test133497987927891035 1
@@ -6057,6 +6061,7 @@
 83J:\Danya\Code\Node.js\Natours\node_modules\core-js\features\array\virtual\splice.js133547952733308840 0
 121J:\Danya\Code\Node.js\Natours\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-arm64-musl.node133547927703324001 0
 72J:\Danya\Code\Node.js\Natours\node_modules\core-js\internals\a-string.js133547952701356756 0
+90J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\safe-buffer\index.d.ts133553939834434781 0
 93J:\Danya\Code\Node.js\Natours\node_modules\@babel\code-frame\node_modules\chalk\index.js.flow133547927604024675 0
 66J:\Danya\Code\Node.js\Natours\node_modules\resolve\test\subdirs.js133497987927749254 0
 64J:\Danya\Code\Node.js\Natours\node_modules\css-tree\dist\data.js133547927711973330 0
@@ -7520,6 +7525,7 @@
 76J:\Danya\Code\Node.js\Natours\node_modules\mongodb\lib\operations\command.js133498719785133673 0
 100J:\Danya\Code\Node.js\Natours\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\usage.js133547927701292470 0
 69J:\Danya\Code\Node.js\Natours\node_modules\object-assign\package.json133497987806764707 0
+83J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\bytes\Readme.md133553939835374778 0
 78J:\Danya\Code\Node.js\Natours\node_modules\bson\vendor\text-encoding\README.md133498719826686388 0
 111J:\Danya\Code\Node.js\Natours\node_modules\html-to-text\node_modules\entities\lib\generated\decode-data-html.js133552513166934839 0
 110J:\Danya\Code\Node.js\Natours\node_modules\eslint-plugin-jsx-a11y\docs\rules\no-static-element-interactions.md133497987940073932 0
@@ -8582,6 +8588,7 @@
 80J:\Danya\Code\Node.js\Natours\node_modules\mongodb\lib\operations\search_indexes133498719872423306 1
 74J:\Danya\Code\Node.js\Natours\node_modules\htmlnano\docs\docs\020-usage.md133547927702522499 0
 76J:\Danya\Code\Node.js\Natours\node_modules\jsx-ast-utils\.github\FUNDING.yml133497987935550631 0
+88J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\component.json133553939835384771 0
 68J:\Danya\Code\Node.js\Natours\node_modules\lodash\fp\wrapperChain.js133515228707663311 0
 69J:\Danya\Code\Node.js\Natours\node_modules\language-tags\lib\index.js133497987807474745 0
 59J:\Danya\Code\Node.js\Natours\node_modules\lodash\fp\set.js133515228704668343 0
@@ -9221,6 +9228,7 @@
 79J:\Danya\Code\Node.js\Natours\node_modules\core-js\full\function\is-callable.js133547952723747274 0
 83J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2022\IsAccessorDescriptor.js133497987949478043 0
 65J:\Danya\Code\Node.js\Natours\node_modules\core-js\actual\atob.js133547952704106790 0
+55J:\Danya\Code\Node.js\Natours\node_modules\compressible133553939835454774 1
 59J:\Danya\Code\Node.js\Natours\node_modules\lodash\remove.js133515228704278368 0
 59J:\Danya\Code\Node.js\Natours\node_modules\lodash\repeat.js133515228704308361 0
 92J:\Danya\Code\Node.js\Natours\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest2.c133547927704673308 0
@@ -11901,6 +11909,7 @@
 76J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2016\DayWithinYear.js133497987941557731 0
 73J:\Danya\Code\Node.js\Natours\node_modules\@swc\helpers\cjs\_defaults.cjs133547927700332475 0
 75J:\Danya\Code\Node.js\Natours\node_modules\eslint-visitor-keys\package.json133497987851614339 0
+67J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules133553939833674762 1
 85J:\Danya\Code\Node.js\Natours\node_modules\@parcel\core\test\fixtures\parcel\index.js133547927705793298 0
 77J:\Danya\Code\Node.js\Natours\node_modules\caniuse-lite\data\features\zstd.js133547927791833824 0
 72J:\Danya\Code\Node.js\Natours\node_modules\eslint-visitor-keys\README.md133497987852933435 0
@@ -12613,6 +12622,7 @@
 90J:\Danya\Code\Node.js\Natours\node_modules\core-js\modules\esnext.set.is-superset-of.v2.js133547952715577316 0
 83J:\Danya\Code\Node.js\Natours\node_modules\eslint-plugin-es\lib\rules\no-reflect.js133497987926378957 0
 73J:\Danya\Code\Node.js\Natours\node_modules\core-js\actual\string\small.js133547952732790360 0
+85J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\.travis.yml133553939835464768 0
 104J:\Danya\Code\Node.js\Natours\node_modules\eslint-plugin-es\lib\rules\no-regexp-lookbehind-assertions.js133497987926521782 0
 89J:\Danya\Code\Node.js\Natours\node_modules\eslint-plugin-es\lib\rules\no-regexp-s-flag.js133497987926709668 0
 82J:\Danya\Code\Node.js\Natours\node_modules\core-js\stable\string\is-well-formed.js133547952725412840 0
@@ -12622,6 +12632,7 @@
 77J:\Danya\Code\Node.js\Natours\node_modules\@swc\helpers\src\_create_super.mjs133547927730295925 0
 88J:\Danya\Code\Node.js\Natours\node_modules\caniuse-lite\data\features\css-containment.js133547927710803269 0
 107J:\Danya\Code\Node.js\Natours\node_modules\eslint-plugin-es\lib\rules\no-regexp-unicode-property-escapes.js133497987927749254 0
+81J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\ms\license.md133553939834484776 0
 91J:\Danya\Code\Node.js\Natours\node_modules\eslint-plugin-es\lib\rules\no-rest-parameters.js133497987927891035 0
 79J:\Danya\Code\Node.js\Natours\node_modules\eslint-plugin-es\lib\rules\no-set.js133497987929093515 0
 69J:\Danya\Code\Node.js\Natours\node_modules\array-flatten\package.json133493659290704261 0
@@ -13978,6 +13989,7 @@
 84J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2022\TypedArrayElementSize.js133497987969750493 0
 86J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2022\TypedArraySpeciesCreate.js133497987969750493 0
 76J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2022\UnicodeEscape.js133497987969931920 0
+63J:\Danya\Code\Node.js\Natours\node_modules\compressible\LICENSE133553939834744811 0
 83J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2022\UTF16EncodeCodePoint.js133497987970082687 0
 98J:\Danya\Code\Node.js\Natours\node_modules\csso\node_modules\css-tree\lib\syntax\scope\selector.js133547927729365925 0
 92J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2022\UTF16SurrogatePairToCodePoint.js133497987970082687 0
@@ -14050,6 +14062,7 @@
 86J:\Danya\Code\Node.js\Natours\node_modules\core-js\es\string\virtual\to-well-formed.js133547952735924643 0
 78J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2021\BigIntBitwiseOp.js133497987936918530 0
 71J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2021\BinaryOr.js133497987937050463 0
+66J:\Danya\Code\Node.js\Natours\node_modules\compressible\HISTORY.md133553939835374778 0
 72J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2021\BinaryXor.js133497987937214970 0
 76J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2021\ByteListEqual.js133497987938009462 0
 94J:\Danya\Code\Node.js\Natours\node_modules\@swc\helpers\cjs\_tagged_template_literal_loose.cjs133547927704713309 0
@@ -14118,6 +14131,7 @@
 75J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2015\IteratorStep.js133497987960604168 0
 69J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2015\Invoke.js133497987949057528 0
 78J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2021\NumberBitwiseOp.js133497987963076997 0
+84J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\.npmignore133553939834424771 0
 80J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2021\NumericToRawBytes.js133497987963252895 0
 85J:\Danya\Code\Node.js\Natours\node_modules\es-abstract\2021\ObjectDefineProperties.js133497987963719878 0
 75J:\Danya\Code\Node.js\Natours\node_modules\axios\dist\browser\axios.cjs.map133547947683114384 0
@@ -15370,6 +15384,7 @@
 94J:\Danya\Code\Node.js\Natours\node_modules\csso\node_modules\css-tree\lib\syntax\node\Value.js133547927729975933 0
 90J:\Danya\Code\Node.js\Natours\node_modules\css-select\node_modules\domhandler\lib\index.js133547927612445308 0
 99J:\Danya\Code\Node.js\Natours\node_modules\csso\node_modules\css-tree\lib\syntax\node\WhiteSpace.js133547927730085928 0
+73J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug133553939835524779 1
 96J:\Danya\Code\Node.js\Natours\node_modules\csso\node_modules\css-tree\lib\syntax\config\lexer.js133547927712463305 0
 72J:\Danya\Code\Node.js\Natours\node_modules\core-js\full\iterator\find.js133547952718027286 0
 106J:\Danya\Code\Node.js\Natours\node_modules\csso\node_modules\css-tree\lib\syntax\config\parser-selector.js133547927727798092 0
@@ -16459,6 +16474,7 @@
 78J:\Danya\Code\Node.js\Natours\node_modules\core-js\proposals\set-methods-v2.js133547952732100352 0
 75J:\Danya\Code\Node.js\Natours\node_modules\core-js\proposals\set-methods.js133547952732100352 0
 77J:\Danya\Code\Node.js\Natours\node_modules\core-js\proposals\string-cooked.js133547952733733309 0
+82J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\Makefile133553939835284762 0
 77J:\Danya\Code\Node.js\Natours\node_modules\core-js\proposals\string-dedent.js133547952733778333 0
 80J:\Danya\Code\Node.js\Natours\node_modules\core-js\proposals\string-match-all.js133547952733798352 0
 67J:\Danya\Code\Node.js\Natours\node_modules\axios\MIGRATION_GUIDE.md133547947684933138 0
@@ -17528,6 +17544,7 @@
 75J:\Danya\Code\Node.js\Natours\node_modules\core-js\features\instance\map.js133547952727820371 0
 81J:\Danya\Code\Node.js\Natours\node_modules\core-js\features\instance\match-all.js133547952727980358 0
 78J:\Danya\Code\Node.js\Natours\node_modules\core-js\features\instance\reduce.js133547952730820352 0
+83J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\README.md133553939834484776 0
 77J:\Danya\Code\Node.js\Natours\node_modules\core-js\features\instance\slice.js133547952732710362 0
 74J:\Danya\Code\Node.js\Natours\node_modules\core-js\es\error\constructor.js133547952705916753 0
 70J:\Danya\Code\Node.js\Natours\node_modules\@parcel\graph\lib\BitSet.js133547927662955215 0
@@ -17748,6 +17765,7 @@
 75J:\Danya\Code\Node.js\Natours\node_modules\core-js\es\instance\ends-with.js133547952707466785 0
 73J:\Danya\Code\Node.js\Natours\node_modules\core-js\es\instance\entries.js133547952707686787 0
 76J:\Danya\Code\Node.js\Natours\node_modules\core-js\es\instance\find-index.js133547952717467287 0
+92J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\safe-buffer\package.json133553939834394774 0
 81J:\Danya\Code\Node.js\Natours\node_modules\core-js\es\instance\find-last-index.js133547952717647295 0
 101J:\Danya\Code\Node.js\Natours\node_modules\caniuse-lite\data\features\justify-content-space-evenly.js133547927781134485 0
 70J:\Danya\Code\Node.js\Natours\node_modules\core-js\es\instance\find.js133547952717947274 0
@@ -17837,6 +17855,7 @@
 61J:\Danya\Code\Node.js\Natours\node_modules\core-js\actual\set133547952737774679 1
 74J:\Danya\Code\Node.js\Natours\node_modules\core-js\actual\set-immediate.js133547952731830413 0
 73J:\Danya\Code\Node.js\Natours\node_modules\core-js\actual\set-interval.js133547952732000344 0
+86J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\CHANGELOG.md133553939835514781 0
 72J:\Danya\Code\Node.js\Natours\node_modules\core-js\actual\set-timeout.js133547952732340372 0
 77J:\Danya\Code\Node.js\Natours\node_modules\core-js\actual\structured-clone.js133547952734128333 0
 104J:\Danya\Code\Node.js\Natours\node_modules\@parcel\optimizer-svgo\node_modules\svgo\dist\svgo.browser.js133547927705633310 0
@@ -18093,6 +18112,7 @@
 55J:\Danya\Code\Node.js\Natours\node_modules\bcryptjs\bin133510855212610992 1
 71J:\Danya\Code\Node.js\Natours\node_modules\content-disposition\index.js133493659290974958 0
 70J:\Danya\Code\Node.js\Natours\node_modules\content-disposition\LICENSE133493659290704261 0
+81J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\node.js133553939834764776 0
 72J:\Danya\Code\Node.js\Natours\node_modules\content-disposition\README.md133493659291667300 0
 69J:\Danya\Code\Node.js\Natours\node_modules\constantinople\.prettierrc133546229557995735 0
 71J:\Danya\Code\Node.js\Natours\node_modules\constantinople\tsconfig.json133546229559081156 0
@@ -19511,6 +19531,7 @@
 96J:\Danya\Code\Node.js\Natours\node_modules\@swc\helpers\_\_interop_require_wildcard\package.json133547927728568827 0
 82J:\Danya\Code\Node.js\Natours\node_modules\@swc\helpers\_\_instanceof\package.json133547927728518858 0
 99J:\Danya\Code\Node.js\Natours\node_modules\@swc\helpers\_\_initializer_define_property\package.json133547927727953301 0
+84J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\bytes\History.md133553939835454774 0
 80J:\Danya\Code\Node.js\Natours\node_modules\@swc\helpers\_\_inherits\package.json133547927727943356 0
 88J:\Danya\Code\Node.js\Natours\node_modules\@swc\helpers\_\_get_prototype_of\package.json133547927727828096 0
 75J:\Danya\Code\Node.js\Natours\node_modules\@swc\helpers\_\_get\package.json133547927727848100 0
@@ -19801,6 +19822,7 @@
 107J:\Danya\Code\Node.js\Natours\node_modules\@parcel\workers\test\integration\workerfarm\master-process-id.js133547927697642477 0
 94J:\Danya\Code\Node.js\Natours\node_modules\@parcel\workers\test\integration\workerfarm\ping.js133547927698202478 0
 106J:\Danya\Code\Node.js\Natours\node_modules\@parcel\workers\test\integration\workerfarm\shared-reference.js133547927699542505 0
+80J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\ms\readme.md133553939834634785 0
 73J:\Danya\Code\Node.js\Natours\node_modules\@parcel\workers\src\backend.js133547927606507693 0
 71J:\Danya\Code\Node.js\Natours\node_modules\@parcel\workers\src\child.js133547927649945199 0
 76J:\Danya\Code\Node.js\Natours\node_modules\@parcel\workers\src\childState.js133547927664620190 0
@@ -19967,6 +19989,7 @@
 81J:\Danya\Code\Node.js\Natours\node_modules\@parcel\transformer-image\package.json133547927662205276 0
 72J:\Danya\Code\Node.js\Natours\node_modules\@parcel\transformer-image\src133547927646285114 1
 92J:\Danya\Code\Node.js\Natours\node_modules\@parcel\transformer-image\src\ImageTransformer.js133547927607007665 0
+64J:\Danya\Code\Node.js\Natours\node_modules\compressible\index.js133553939834834784 0
 90J:\Danya\Code\Node.js\Natours\node_modules\@parcel\transformer-image\src\validateConfig.js133547927650565126 0
 92J:\Danya\Code\Node.js\Natours\node_modules\@parcel\transformer-image\lib\ImageTransformer.js133547927600384517 0
 90J:\Danya\Code\Node.js\Natours\node_modules\@parcel\transformer-image\lib\validateConfig.js133547927636725468 0
@@ -20444,6 +20467,7 @@
 115J:\Danya\Code\Node.js\Natours\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeDimensions.js133547927701032482 0
 112J:\Danya\Code\Node.js\Natours\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeDoctype.js133547927701192504 0
 118J:\Danya\Code\Node.js\Natours\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeEditorsNSData.js133547927701342472 0
+89J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\safe-buffer\README.md133553939835294766 0
 115J:\Danya\Code\Node.js\Natours\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeEmptyAttrs.js133547927701622469 0
 114J:\Danya\Code\Node.js\Natours\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeEmptyText.js133547927701812466 0
 116J:\Danya\Code\Node.js\Natours\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeHiddenElems.js133547927701892477 0
@@ -20635,6 +20659,7 @@
 77J:\Danya\Code\Node.js\Natours\node_modules\@parcel\optimizer-css\package.json133547927617262058 0
 68J:\Danya\Code\Node.js\Natours\node_modules\@parcel\optimizer-css\src133547927605126727 1
 84J:\Danya\Code\Node.js\Natours\node_modules\@parcel\optimizer-css\src\CSSOptimizer.js133547927609940063 0
+68J:\Danya\Code\Node.js\Natours\node_modules\compressible\package.json133553939835204759 0
 84J:\Danya\Code\Node.js\Natours\node_modules\@parcel\optimizer-css\lib\CSSOptimizer.js133547927600884497 0
 73J:\Danya\Code\Node.js\Natours\node_modules\@parcel\node-resolver-core\lib133547927629243149 1
 82J:\Danya\Code\Node.js\Natours\node_modules\@parcel\node-resolver-core\package.json133547927651035120 0
@@ -21341,6 +21366,7 @@
 93J:\Danya\Code\Node.js\Natours\node_modules\@babel\code-frame\node_modules\ansi-styles\license133547927603744514 0
 98J:\Danya\Code\Node.js\Natours\node_modules\@babel\code-frame\node_modules\ansi-styles\package.json133547927597184527 0
 95J:\Danya\Code\Node.js\Natours\node_modules\@babel\code-frame\node_modules\ansi-styles\readme.md133547927612530248 0
+79J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\safe-buffer133553939834744811 1
 77J:\Danya\Code\Node.js\Natours\node_modules\@aashutoshrathi\word-wrap\index.js133497987807995827 0
 81J:\Danya\Code\Node.js\Natours\node_modules\@aashutoshrathi\word-wrap\package.json133497987817302438 0
 57J:\Danya\Code\Node.js\Natours\node_modules\.bin\acorn.ps1133497987971763432 0
@@ -21396,9 +21422,33 @@
 57J:\Danya\Code\Node.js\Natours\dev-data\img\new-tour-2.jpg132475715290000000 0
 57J:\Danya\Code\Node.js\Natours\dev-data\img\new-tour-3.jpg132475715290000000 0
 54J:\Danya\Code\Node.js\Natours\dev-data\data\users.json132475715290000000 0
-59J:\Danya\Code\Node.js\Natours\controllers\authController.js133553421102370161 0
+59J:\Danya\Code\Node.js\Natours\controllers\authController.js133553930349649674 0
 60J:\Danya\Code\Node.js\Natours\controllers\errorController.js133548042141660934 0
 61J:\Danya\Code\Node.js\Natours\controllers\reviewController.js133522229226994889 0
 59J:\Danya\Code\Node.js\Natours\controllers\tourController.js133552392600190237 0
 59J:\Danya\Code\Node.js\Natours\controllers\userController.js133552382289075886 0
 60J:\Danya\Code\Node.js\Natours\controllers\viewsController.js133548938706370677 0
+54J:\Danya\Code\Node.js\Natours\node_modules\compression133553939835464768 1
+70J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\ms133553939834524785 1
+83J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\ms\package.json133553939834394774 0
+86J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\package.json133553939834394774 0
+79J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\ms\index.js133553939834434781 0
+88J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\safe-buffer\index.js133553939834484776 0
+81J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\LICENSE133553939834534867 0
+87J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\safe-buffer\LICENSE133553939834634785 0
+87J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\karma.conf.js133553939834634785 0
+86J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\bytes\package.json133553939834744811 0
+81J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\bytes\LICENSE133553939834854777 0
+65J:\Danya\Code\Node.js\Natours\node_modules\compression\HISTORY.md133553939834864770 0
+83J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\.eslintrc133553939834854777 0
+63J:\Danya\Code\Node.js\Natours\node_modules\compression\index.js133553939835324787 0
+88J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\.coveralls.yml133553939835344791 0
+65J:\Danya\Code\Node.js\Natours\node_modules\compressible\README.md133553939835474785 0
+64J:\Danya\Code\Node.js\Natours\node_modules\compression\README.md133553939835514781 0
+77J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\src133553939835594766 1
+88J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\src\browser.js133553939835544777 0
+86J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\src\debug.js133553939835564775 0
+86J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\src\index.js133553939835564775 0
+85J:\Danya\Code\Node.js\Natours\node_modules\compression\node_modules\debug\src\node.js133553939835624763 0
+56J:\Danya\Code\Node.js\Natours\public\js\bundled\index.js133553942335267652 0
+60J:\Danya\Code\Node.js\Natours\public\js\bundled\index.js.map133553942335347645 0
